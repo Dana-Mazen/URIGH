@@ -37,8 +37,8 @@ This project showcases:
 ## Screenshots:
 > The frontend is functional but minimal. Screenshots give a quick understanding of the workflow.
 
-- **Dshboard**  
-![Dahboard Screenshot](Dahboard.png)
+- **Dashboard**  
+![Dashboard Screenshot](Dashboard.png)
 
 - **Doctor Viewing Their Patients**  
 ![View Doctor's Patients Screenshot](viewDoctorPatients.png)
@@ -71,14 +71,29 @@ You must update each DAO/Servlet that connects to the database:
            );
            
 ### 4. Deploy to Servlet Container
--Use Apache Tomcat or any servlet container
--Place the project in the webapps folder or deploy via IDE
--Access in browser: http://localhost:8080/urigh/
+- Use Apache Tomcat or any servlet container
+- Place the project in the webapps folder or deploy via IDE
+- Access in browser: http://localhost:8080/urigh/
 
 Notes:
--Minimal frontend; focus is on backend and full-stack logic
--Servlets handle actions like login, registration, updates, and report viewing
+- Minimal frontend; focus is on backend and full-stack logic
+- Servlets handle actions like login, registration, updates, and report viewing
 
 ## Author 
 
 -Dana Mazen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
