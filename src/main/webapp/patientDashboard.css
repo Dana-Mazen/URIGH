@@ -1,0 +1,92 @@
+@charset "UTF-8";@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0faf8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #b7e9e8;
+    padding: 20px 40px;
+    box-shadow: 0 2px 6px rgba(0, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 2em;
+    color: #05696b;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-form {
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 128, 128, 0.2);
+}
+
+.primary-button {
+    background: linear-gradient(135deg, #78d5d1, #3ad6b7);
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, #56c7be, #30c1a5);
+}
+
+.logout-button {
+    background: #90c5a2; 
+}
+
+.logout-button:hover {
+    background: #76b07f;
+}
+
+footer {
+    background-color: #b7e9e8;
+    padding: 15px 0;
+    text-align: center;
+    color: #05696b;
+    font-weight: 500;
+    box-shadow: 0 -2px 6px rgba(0, 128, 128, 0.2);
+}

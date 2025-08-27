@@ -1,0 +1,93 @@
+@charset "UTF-8";body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4fdfc;
+    color: #333;
+}
+
+header {
+    background-color: #d4f2f1;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
+    color: #05696b;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    min-height: 70vh;
+}
+
+.dashboard-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 128, 128, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.dashboard-link {
+    display: block;
+    padding: 12px;
+    background-color: #3ad6b7;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.dashboard-link:hover {
+    background-color: #32c4a8;
+}
+
+.logout-button {
+    background-color: #f66e6e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #e05757;
+}
+
+footer {
+    text-align: center;
+    background-color: #d4f2f1;
+    padding: 15px;
+    color: #05696b;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

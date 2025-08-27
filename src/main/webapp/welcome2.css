@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f8fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gh-header {
+  background: #4da8da;
+  padding: 0.75rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.gh-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gh-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.gh-logo img {
+  height: 40px;
+}
+.gh-logo span {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+.gh-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.gh-nav li + li {
+  margin-left: 1.5rem;
+}
+.gh-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.gh-nav a:hover {
+  text-decoration: underline;
+}
+.gh-user-icon i {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.welcome-section {
+  background: #7ed321; 
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.welcome-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.welcome-section p {
+  max-width: 600px;
+  margin: 0.75rem auto;
+  font-weight: 300;
+}
+.btn-primary {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #4da8da;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-primary:hover {
+  background: #3c8fbf;
+}
+
+.section-home,
+.section-doctor {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.section-home h2,
+.section-doctor h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.btn-secondary {
+  padding: 0.75rem 1.5rem;
+  background: #4da8da;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-secondary:hover {
+  background: #3c8fbf;
+}
+
+.gh-footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.gh-footer p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

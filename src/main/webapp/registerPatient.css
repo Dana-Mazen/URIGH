@@ -1,0 +1,79 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px solid #b0c4de;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2f4f4f;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fdfdfd;
+    margin-top: 4px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+form input[type="submit"],
+button {
+    margin-top: 18px;
+    padding: 10px;
+     background-color: #20b2aa; 
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover,
+button:hover {
+     background-color: #008b8b; 
+}
+
+.home-button {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.home-button button {
+    background-color: #20b2aa;
+}
+
+.home-button button:hover {
+    background-color: #008b8b; 
+}
