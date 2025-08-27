@@ -55,7 +55,7 @@ This project showcases:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com
+git clone https://github.com/Dana-Mazen/URIGH.git
 ```
 ### 2. Database Setup
 - Create a MySQL database (URIGH_DB)
@@ -74,10 +74,6 @@ You must update each DAO/Servlet that connects to the database:
 - Use Apache Tomcat or any servlet container
 - Place the project in the webapps folder or deploy via IDE
 - Access in browser: http://localhost:8080/urigh/
-
-Notes:
-- Minimal frontend; focus is on backend and full-stack logic
-- Servlets handle actions like login, registration, updates, and report viewing
 
 ## Author 
 
